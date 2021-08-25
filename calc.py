@@ -1,6 +1,6 @@
 
 
-
+#criação
 def retorna_resultado(num1:float,num2:float,opcao:str)-> float:
     opcao = opcao.lower()
     if opcao == '+':
@@ -20,7 +20,7 @@ def captura_numero(numero:str)->float:
     return float(input(f"digite o {numero} "))
 
 
-
+#execução
 num1:float= captura_numero("numero 1")
 num2:float = captura_numero("numero 2")
 opcao:str = input("digite a operacao ")
