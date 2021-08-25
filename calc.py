@@ -20,7 +20,7 @@ b = 5
 c = '-'
 
 
-test = realizadora(a,b,c)
+test = realizadora(5,3,+)
 print (test)
 
 
