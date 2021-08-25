@@ -9,7 +9,7 @@ def realizadora(num1:float,num2:float,opcao:str)->float:
         resultado = num1 + num2
     if opcao == '-':
         resultado = num1 - num2
-    if opcao == '*' or 'x':
+    if opcao == '*' or opcao == 'x':
         resultado = num1 * num2
     if opcao == '/':
         resultado = num1 / num2        
